@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <div class="bx bx-x" onclick="hideMenu()"> </div>  
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="markettrend.html">MARKET TRENDS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="signin.html">SIGN IN</a></li>
+                    <li><a href="signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+            <div class="bx bx-menu" onclick="showMenu()"> </div> 
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62087.988544220985!2d-16.682047606298827!3d13.443291246114988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgm!4v1711301493141!5m2!1sen!2sgm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class='bx bx-home-alt-2'></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Serrekunda, Kairaba Avenue, GM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bxs-phone'></i>
+                    <span>
+                        <h5>+220 3217270</h5>
+                        <p>Monday to Friday, 9am to 4am</p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bx-envelope'></i>
+                    <span>
+                        <h5>info@businessconsulting.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Repudiandae incidunt iure soluta<br> 
+            facilis porro! Eveniet eum velit accusantium modi 
+            cupiditate?
+        </p>
+        <div class="icons">
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-facebook-circle' ></i>
+            <i class='bx bxl-linkedin-square' ></i>
+        </div>
+        <p>Made by Muhammed Sawaneh</p>
+    </section>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>

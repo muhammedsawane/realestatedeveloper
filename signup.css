@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    height: calc(100vh);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    position: flex;
+    color: #fff;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+.user-details .input-box{
+    display: block ;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box ::-webkit-input-placeholder{
+    color: #101010;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 30%;
+    outline: none;
+    opacity: 0.3;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease; 
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 25%;
+    outline: none;
+    color: rgb(124, 225, 210);
+    border: 1px solid rgb(124, 225, 210);
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+form .button input:hover{
+    color: #222;
+    border: 1px solid rgb(124, 225, 210);
+    background: rgb(124, 225, 210);
+}
+.container .myown{
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    bottom: 1%;
+    color: #c3c3c5;
+
+}
+.container .myown::before{
+    content: '';
+    position: absolute;
+    right: 1;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+}
+
+
+
+
+
